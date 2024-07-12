@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        color: #777;
+        font-size: 13px;
+      }
+      .container {
+        width: 400px;
+        margin: 50px auto;
+        background-color: antiquewhite;
+        border-radius: 15px;
+        padding: 10px;
+      }
+      .items-total {
+        margin-right: 50px;
+      }
+
+      .checkout-btn {
+        width: 90%;
+        padding: 15px;
+        margin: 10px;
+        background-color: rgb(85, 85, 234);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 13px;
+        font-size: 22px;
+      }
+      .product {
+        width: 90%;
+        background-color: white;
+        margin: 20px;
+        height: 95px;
+        border: 1.5px solid #777;
+        border-radius: 10px;
+      }
+      img {
+        height: 75px;
+        object-fit: contain;
+        margin-top: 10px;
+      }
+      .items-total,
+      .total-price,
+      .shipping-amount {
+        float: right;
+        margin-right: 50px;
+        color: rgb(64, 232, 64);
+        font-weight: bold;
+      }
+      .description,
+      .product-price {
+        float: right;
+        margin-right: 95px;
+      }
+      .product-price {
+        margin-top: -45px;
+        float: left;
+        margin-left: 120px;
+      }
+      .shipping {
+        border-bottom: 1.5px solid #777;
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <h2>ORDER DETAILS</h2>
+        <p>Total Items <span class="items-total">2 items</span></p>
+        <section class="product">
+          <img
+            src="https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/673439/3.jpg?5432"
+            alt=""
+            width="100px"
+          />
+          <p class="description">Apple AirPods Product</p>
+          <p class="product-price">$229</p>
+        </section>
+        <section class="product">
+          <img
+            src="https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/673439/3.jpg?5432"
+            alt=""
+            width="100px"
+          />
+          <p class="description">Apple AirPods Product</p>
+          <p class="product-price">$229</p>
+        </section>
+        <section>
+          <p class="shipping">
+            Shipping <span class="shipping-amount">$9.99</span>
+          </p>
+        </section>
+        <section class="price">
+          <p>Total Price <span class="total-price">$467.99</span></p>
+        </section>
+        <button class="checkout-btn">Proceed to checkout</button>
+      </article>
+    </main>
+  </body>
+</html>
