@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,10 +18,11 @@ article {
 .container {
   position: relative;
   border: 4px solid black;
-  width: 825px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
-
+.container1 {
+  width: 900px;
+}
 .sale {
   display: block;
   position: absolute;
@@ -100,4 +102,23 @@ li {
 }
 .block6 {
   background-color: #2e1602;
+}
+
+.float1 {
+  float: right;
+  width: 300px;
+}
+
+.float2 {
+  float: left;
+  width: 300px;
+}
+
+.float3 {
+  width: 300px;
+  float: left;
+}
+.section-details {
+  float: left;
+  width: 600px;
 }
